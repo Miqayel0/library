@@ -1,0 +1,29 @@
+.Client {
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 5px;
+    padding: 10px;
+    max-width: 250px;
+}
+
+.Client > span {
+    display: block;
+} 
+
+.Delete {
+    color: red;
+    margin: 10px;
+}
+
+.Delete:hover {
+    color: rgb(148, 16, 16)
+}
+
+@media (max-width: 600px) {
+    /* For desktop: */
+    .Client {
+        max-width: 90%;
+    }
+}

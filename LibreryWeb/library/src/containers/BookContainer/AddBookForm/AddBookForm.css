@@ -1,0 +1,13 @@
+.BookForm{
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 400px;
+}
+
+@media (max-width: 600px) {
+    /* For desktop: */
+    .BookForm {
+        margin: 30px;
+        width: 90%;
+    }
+}
